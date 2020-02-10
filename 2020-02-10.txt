@@ -36,5 +36,5 @@
                 set_property BITSTREAM.CONFIG.SPI_BUSWIDTH 4 [current_design]
          
          3. 这个配置,取决于flash芯片怎么连线, 不同模式有不同的读写,看引脚怎么连. 开发板上用spix4  (UG470)    
-           
+           `
                 set_property CONFIG_MODE SPIx4 [current_design]
